@@ -8,6 +8,7 @@ const items = [
   ['demo', 'Live demo', IconDemo],
   ['health', 'Health', IconHealth],
   ['notifications', 'Notifications', IconNotifications],
+  ['billing', 'Billing', IconNotifications],
 ];
 
 export default function Sidebar({ page, navigate, onBackToConsole, drawerOpen, setDrawerOpen }) {

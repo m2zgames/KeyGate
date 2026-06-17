@@ -8,6 +8,7 @@ import LogsPage from '../components/pages/LogsPage';
 import DemoPage from '../components/pages/DemoPage';
 import HealthPage from '../components/pages/HealthPage';
 import NotificationsPage from '../components/pages/NotificationsPage';
+import BillingPage from '../components/pages/BillingPage';
 
 const PAGES = {
   overview: OverviewPage,
@@ -17,6 +18,7 @@ const PAGES = {
   demo: DemoPage,
   health: HealthPage,
   notifications: NotificationsPage,
+  billing: BillingPage,
 };
 
 export default function ConsoleShell({ go, page, projectSlug }) {
